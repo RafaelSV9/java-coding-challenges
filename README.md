@@ -4,49 +4,37 @@
 
 🧠 Java Coding Challenges – Treinamento de Lógica em Java
 <p align="center"> <img src="https://img.shields.io/badge/Java-17-007396?logo=java" /> <img src="https://img.shields.io/badge/Maven-Build-orange?logo=apachemaven" /> <img src="https://img.shields.io/badge/Console%20App-Terminal-blue" /> <img src="https://img.shields.io/badge/Status-Ativo-brightgreen" /> </p>
+# Java Coding Challenges
 
-Projeto criado para treinar algoritmos, resolução de problemas e lógica de programação em Java 17, utilizando desafios clássicos de entrevistas técnicas.
+Coleção de desafios de lógica implementados em **Java 17**, executados via linha de comando.
 
-O sistema funciona via menu interativo no terminal, permitindo selecionar desafios e executá-los imediatamente.
+O objetivo deste projeto é praticar fundamentos de programação, algoritmos e organização de código em Java, em um formato de **Coding Challenges** com menu interativo.
 
-🧩 Desafios Disponíveis
-✅ 1. Número Primo
+---
 
-Verifica se um número inteiro é primo (método otimizado até √n)
+## 💡 Desafios incluídos
 
-✅ 2. Fatorial (0 a 20)
+1. **Número Primo** – verificar se um número inteiro positivo é primo  
+2. **Fatorial** – calcular o fatorial de um número (0 a 20)  
+3. **Palíndromo** – verificar se uma palavra ou frase é um palíndromo  
+4. **FizzBuzz** – imprimir a sequência FizzBuzz até N  
+5. **Maior Número da Lista** – encontrar o maior número em uma lista informada pelo usuário  
 
-Evita overflow
+Cada desafio está implementado em uma classe própria dentro do pacote `tasks`, seguindo uma interface comum (`CodingChallenge`).
 
-Retorna long
+---
 
-Cálculo iterativo
+## 🚀 Tecnologias
 
-✅ 3. Palíndromo
+- Java 17  
+- Maven  
+- Exec Maven Plugin (`mvn exec:java`)  
 
-Remove espaços, pontuação e acentos
+---
 
-Aceita frases completas
+## 📂 Estrutura do Projeto
 
-Compara texto normalizado
-
-✅ 4. FizzBuzz
-
-Uma das questões mais pedidas em entrevistas
-
-Imprime “Fizz”, “Buzz” ou “FizzBuzz”
-
-✅ 5. Maior Número da Lista
-
-Usuário digita valores separados por espaço
-
-Números inválidos são ignorados com aviso
-
-Retorna lista e maior elemento
-
-🚀 Tecnologias Utilizadas
-<p> <img src="https://img.shields.io/badge/Java-17-007396?logo=java" /> <img src="https://img.shields.io/badge/Maven-Build-orange?logo=apachemaven" /> <img src="https://img.shields.io/badge/CLI-Application-blue" /> </p>
-📂 Arquitetura do Projeto
+```text
 java-coding-challenges/
 ├── pom.xml
 └── src
@@ -56,25 +44,44 @@ java-coding-challenges/
                 └── rafaelsv
                     └── challenges
                         ├── Main.java
-                        ├── menu/
+                        ├── menu
                         │   └── MainMenu.java
-                        └── tasks/
+                        └── tasks
                             ├── CodingChallenge.java
                             ├── PrimeNumberChallenge.java
                             ├── FactorialChallenge.java
                             ├── PalindromeChallenge.java
                             ├── FizzBuzzChallenge.java
                             └── MaxNumberChallenge.java
+```
 
-▶️ Como Executar
-1️⃣ Clonar o repositório
-git clone https://github.com/SEU-USUARIO/java-coding-challenges.git
+---
+
+## ▶️ Como Rodar
+
+Pré-requisitos:
+
+- Java 17 instalado  
+- Maven instalado  
+
+### 1️⃣ Clonar o repositório
+
+```bash
+git clone https://github.com/SEU_USUARIO/java-coding-challenges.git
 cd java-coding-challenges
+```
 
-2️⃣ Rodar o projeto
+### 2️⃣ Executar o menu de desafios
+
+```bash
 mvn exec:java
+```
 
-🖥️ Menu de Desafios
+---
+
+## 🖥️ Exemplo de Execução
+
+```text
 ======================================
          JAVA CODING CHALLENGES
 ======================================
@@ -86,27 +93,23 @@ mvn exec:java
 0 - Sair
 --------------------------------------
 Escolha uma opção:
+```
 
-🔁 Roadmap / Futuras Expansões
+---
 
- Conversão decimal ↔ binário
+## 🔁 Ideias para novos desafios
 
- Verificação de Fibonacci
+- Ordenação de lista (Bubble Sort, Insertion Sort)  
+- Cálculo de média, mediana e moda  
+- Contar frequência de caracteres em uma string  
+- Converter número decimal para binário  
+- Validar formato de e-mail simples  
 
- Estatísticas (média, mediana, moda)
+---
 
- Algoritmos de ordenação (Bubble, Insertion, Merge Sort)
+## 🧑‍💻 Autor: Rafael Dos Santos Vicente.
 
- “Guess the Number” – Jogo de adivinhação
-
- Contagem de vogais / frequência de caracteres
-
- Exportar resultados para arquivo
-
-👨‍💻 Autor
-
-Rafael dos Santos Vicente
-Desenvolvedor Backend | Java | Spring | Cloud
+Projeto criado para estudo e composição de portfólio em Java.
 
 <a href="https://github.com/SEU-USUARIO"> <img src="https://img.shields.io/badge/GitHub-RafaelSV9-000?logo=github" /> </a>
 📜 Licença
