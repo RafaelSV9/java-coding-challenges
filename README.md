@@ -1,6 +1,7 @@
 <p align="center">
-  <img src="https://svg-banners.vercel.app/api?type=origin&text1=Java%20Coding%20Challenges%20🧠&text2=Algorithms%20%26%20Logic%20Training" width="100%" alt="Java Coding Challenges Banner">
+  <img src="https://readme-typing-svg.herokuapp.com?size=30&color=00AEEF&center=true&vCenter=true&width=700&lines=Java+Coding+Challenges+%F0%9F%A7%A0;Training+Algorithms+and+Problem+Solving" />
 </p>
+
 🧠 Java Coding Challenges – Treinamento de Lógica em Java
 <p align="center"> <img src="https://img.shields.io/badge/Java-17-007396?logo=java" /> <img src="https://img.shields.io/badge/Maven-Build-orange?logo=apachemaven" /> <img src="https://img.shields.io/badge/Console-Application-blue" /> <img src="https://img.shields.io/badge/Status-Ativo-brightgreen" /> <a href="https://github.com/SEU-USUARIO"> <img src="https://img.shields.io/badge/GitHub-RafaelSV9-000?logo=github" /> </a> </p>
 📌 Descrição do Projeto
