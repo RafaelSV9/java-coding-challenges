@@ -63,6 +63,7 @@ Retorna a lista processada e o maior valor
 📂 Arquitetura do Projeto
 css
 Copiar código
+
 java-coding-challenges/
 ├── pom.xml
 └── src
@@ -81,6 +82,7 @@ java-coding-challenges/
                     └── MaxNumberChallenge.java
 ▶️ Como Executar
 1️⃣ Clonar o repositório
+
 bash
 Copiar código
 git clone https://github.com/SEU-USUARIO/java-coding-challenges.git
