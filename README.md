@@ -112,6 +112,7 @@ Escolha uma opção:
 Projeto criado para estudo e composição de portfólio em Java.
 
 <a href="https://github.com/SEU-USUARIO"> <img src="https://img.shields.io/badge/GitHub-RafaelSV9-000?logo=github" /> </a>
+
 📜 Licença
 
 Projeto sob licença MIT — livre para estudo, modificação e portfólio.
